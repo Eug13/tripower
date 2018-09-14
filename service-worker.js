@@ -1,10 +1,13 @@
 var CACHE_NAME = 'myAppCache';
 var urlsToCache = [
-        '/',
-        '/favicon.ico',
-        '/static/css/styles.css',
-        '/static/js/main.f960a26f.js',
-        '/manifest.json'
+  '/',
+  '/BenchPress',
+  '/Deadlift',
+  '/Squat',
+  '/favicon.ico',
+  '/static/css/styles.css',
+  '/static/js/main.f960a26f.js',
+  '/static/manifest.json'
 ];
 
 self.addEventListener('install', function(event) {
