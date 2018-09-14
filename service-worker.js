@@ -7,7 +7,7 @@ var urlsToCache = [
   '/favicon.ico',
   '/static/css/styles.css',
   '/static/js/main.f960a26f.js',
-  '/static/manifest.json'
+  '/manifest.json'
 ];
 
 self.addEventListener('install', function(event) {
