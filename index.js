@@ -17,8 +17,8 @@ app.get('/service-worker.js', function (req, res) {
     res.sendFile(__dirname + '/service-worker.js');
 });
 
-app.get('/cache-polyfill.js', function (req, res) {
-    res.sendFile(__dirname + '/cache-polyfill.js');
+app.get('/manifest.json', function (req, res) {
+    res.sendFile(__dirname + '/manifest.json');
 });
 
 app.get('/favicon.ico', function (req, res) {
