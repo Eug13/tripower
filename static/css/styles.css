@@ -1,15 +1,29 @@
+
+html{
+    margin:0;
+    padding:0;
+}
 body{
     background-color: #222223;
+    border:1px solid orange;
+    border-radius:4px 4px 4px 4px;
 }
 #root{
-/* background-color: #333334; */
-border:1px solid orange;
-border-radius:4px 4px 4px 4px;
 color:lightskyblue;
-margin:10%;
-padding:5%;
+margin:0 auto;
+/* padding:5%; */
 font-family:Arial;
+}
 
+.menu{
+   display: flex;
+   justify-content: center;
+   margin:10px;
+}
+
+.component{
+    margin:10px;
+    overflow: hidden;
 }
 
 #squat ,#dead ,#bench{
@@ -21,10 +35,10 @@ font-family:Arial;
 a {
     text-decoration: none;
     color:orange;
-    font-size: 20px;
+    font-size: 11px;
     border:1px solid orange;
     margin-right:10px;
-    padding:5px 30px;
+    padding:10px ;
     cursor: pointer;
     border-radius:4px 4px 4px 4px;
 }
@@ -52,9 +66,9 @@ h1 , h3{
 
 
 input{
-    padding:5px 10px;
+    padding:9px 10px;
     border-radius:4px 4px 4px 4px;
-    margin:10px 0;
+    width:91%;
 }
 
 
@@ -98,40 +112,46 @@ button:hover{
 .row {
 /* padding:10px; */
 /* border:1px solid lightseagreen; */
-margin:20px 0;
+/* margin:20px 0; */
 }
 
 .span{
-    margin-right:10px;
-    font-size: 16px;
-    padding:0 20px;
+    margin-right:13px;
+    font-size: 11px;
+}
+.span:first-child{
+    color:white;
 }
 .topCalc{
-    margin:20px 0;
     background-color: orange;
     padding:10px;
-    color:white;
-    /* font-size:20px ; */
+    color:#222223;
     border-radius:5px 5px 5px 5px;
+    text-align: center;
 }
 .viewBox{
-    display: inline-block;
-    margin:20px 0;
-    float:right;
+    display: flex;
+    flex-wrap: wrap;
+    margin:10px 0;
+    
 }
 h3{
     display: inline-block;
-    width:250px;
+    font-size: 14px;
 }
 .weight{
     color:lightskyblue;
+    font-size: 14px;
 }
 .check{
+    display:inline-block;
+    text-align: center;
     border:1px solid lightskyblue;
     border-radius:5px 5px 5px 5px;
-    padding:10px 50px;
-    margin:5px;
+    padding:15px 0;
+    margin:10px;
     color:lightskyblue;
+    width:25%;
 }
 
 .check:hover{
@@ -141,12 +161,15 @@ h3{
 }
 
 .checked{
+    display:inline-block;
+    text-align: center;
     border:1px solid white;
     border-radius:5px 5px 5px 5px;
-    padding:10px 50px;
-    margin:5px;
+    padding:15px 0;
+    margin:10px;
     background-color:red;
     color:white;
+    width:25%;
 }
 
 .done{
@@ -156,14 +179,16 @@ h3{
 .ms , .md , .mb{
     background-color: red;
 }
-
+.btn{
+    width:100%;
+}
+/* 
 @media screen and (max-width:375px){
     body{margin:0;}
 #root{
-    margin:0;
+    margin:0 auto;
     width:100%;
-   min-height:667px;
-}
+  
 a{
 display: inline-block;
 width:100%;
@@ -210,10 +235,9 @@ h3 ,.weight{
 @media screen and (max-width:320px){
     body{margin:0;}
 #root{
-    margin:0;
+    margin:0 auto;
     width:100%;
-    height: 568px;
-}
+   
 a{
 display: inline-block;
 width:100%;
@@ -261,4 +285,4 @@ h3 ,.weight{
 .bottomb{
     margin-top: 16px;
 }
-}
+} */
