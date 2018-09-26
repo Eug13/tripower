@@ -51,5 +51,6 @@
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#222223"
+  "background_color": "#222223",
+  "prefer_related_applications": true
 }
